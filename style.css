@@ -85,6 +85,39 @@ h1 span {
     background-color:#181717;
   
 }
+
+.video-podcast{
+    width: 75%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid black;
+    box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color:#181717;
+    min-height: 35vh;
+}
+
+.video-podcast {
+    opacity: 0;
+    transform: translateY(20px);
+    animation-name: fade-in;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
 .art{
     color: #f1f1f1;
     padding-top: 5px;

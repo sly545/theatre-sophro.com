@@ -9,7 +9,7 @@
     }
     .nav-toggler{
         width: 40px;
-        right: 25px;
+        right: 9px;
     }
     .lien-te-permanet{
         
@@ -29,6 +29,10 @@
     .lien-tel{
         margin-top: 10px;
     }
+    .pop-photo{
+        width: 70%;
+
+    }
 
  }
  
@@ -39,7 +43,7 @@
     }
     .nav-toggler{
         width: 25px;
-        right: 25px;
+        right: 9px;
     }
    
     .lien-te-permanet{
@@ -49,5 +53,6 @@
         font-size: 20px;
     }
     
+ 
 
  }
