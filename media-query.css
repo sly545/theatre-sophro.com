@@ -1,0 +1,53 @@
+@media screen and (max-width: 425px) { 
+    h1{
+        font-size: 23px;
+    
+    }
+    .lien-fomu{
+        font-size: 19px;
+        padding: 1%;
+    }
+    .nav-toggler{
+        width: 40px;
+        right: 25px;
+    }
+    .lien-te-permanet{
+        
+        right: 73%;
+        top: 30px;
+        font-size: 30px;
+    }
+    .art{
+
+        font-size: 17px;
+    }
+    
+    .lien-mail{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .lien-tel{
+        margin-top: 10px;
+    }
+
+ }
+ 
+ @media screen and (max-width: 369px) {
+
+    .trop-long{
+        font-size: 16px;
+    }
+    .nav-toggler{
+        width: 25px;
+        right: 25px;
+    }
+   
+    .lien-te-permanet{
+        
+        right: 73%;
+        top: 35px;
+        font-size: 20px;
+    }
+    
+
+ }
