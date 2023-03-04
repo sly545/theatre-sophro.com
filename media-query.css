@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 425px) { 
     h1{
         font-size: 23px;
@@ -8,7 +10,7 @@
         padding: 1%;
     }
     .nav-toggler{
-        width: 40px;
+        width: 35px;
         right: 9px;
     }
     .lien-te-permanet{
@@ -56,3 +58,42 @@
  
 
  }
+
+/* media query mode paysage portble */
+
+@media screen and (orientation: landscape) and (max-height: 425px) {
+    .wrap{
+        height: 100%;
+    }
+    h1{
+        
+        font-size: 25px;
+    }
+
+    .video-podcast{
+        width: 75%;
+        height: 100vh;
+    }
+    .pop-photo{
+        width: 165px;
+    }
+
+    .nav-toggler{
+        right: 15px;
+    }
+    .carte-paris{
+        width: 50%;
+    }
+
+        
+    /* Styles à appliquer aux appareils en mode paysage avec une hauteur minimale de 500 pixels */
+  }
+
+  @media screen and (min-width: 1268px){
+  
+    .wrap{
+        height: 100%;
+    }
+  
+
+}
