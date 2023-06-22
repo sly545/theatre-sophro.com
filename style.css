@@ -234,7 +234,7 @@ h1 span {
 }
 .carte-paris{
     display: flex;
-    width: 75%;
+    width: 48%;
     object-fit: cover;
 }
 
