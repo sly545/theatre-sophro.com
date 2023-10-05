@@ -1,6 +1,25 @@
 
 
 @media screen and (max-width: 425px) { 
+    .phragraphe-contact{
+        font-size: 15px;
+    }
+
+    
+    .lien-tel{
+        color: #cfcfcf;
+        text-decoration: none;
+        display: flex;
+        font-size: 25px;
+        border: 1px solid black;
+        box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: rgb(122 112 112 / 50%);
+        align-items: center;
+    }
     h1{
         font-size: 23px;
     
@@ -15,7 +34,7 @@
     }
     .lien-te-permanet{
         
-        right: 73%;
+        right: 85%;
         top: 30px;
         font-size: 30px;
     }
@@ -27,6 +46,7 @@
     .lien-mail{
         font-size: 18px;
         margin-top: 10px;
+        
     }
     .lien-tel{
         margin-top: 10px;
@@ -35,11 +55,40 @@
         width: 70%;
 
     }
-
+ 
+    .lien-te-permanet{
+        display: flex;
+        right: 85%;
+        top: 35px;
+        font-size: 25px;
+    }
+    nav a {
+        font-family: Quicksand, sans-serif;
+        color: black;
+        font-size: 20px;
+        display: block;
+        margin: 10px 0;
+        text-decoration: none;
+       
+    }
  }
  
  @media screen and (max-width: 369px) {
 
+    .lien-tel{
+        color: #cfcfcf;
+        text-decoration: none;
+        display: flex;
+        font-size: 25px;
+        border: 1px solid black;
+        box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: rgb(122 112 112 / 50%);
+        align-items: center;
+    }
     .trop-long{
         font-size: 16px;
     }
@@ -49,12 +98,20 @@
     }
    
     .lien-te-permanet{
-        
-        right: 73%;
+        display: flex;
+        right: 85%;
         top: 35px;
-        font-size: 20px;
+        font-size: 25px;
     }
-    
+    nav a {
+        font-family: Quicksand, sans-serif;
+        color: black;
+        font-size: 20px;
+        display: block;
+        margin: 10px 0;
+        text-decoration: none;
+       
+    }
  
 
  }
@@ -62,6 +119,21 @@
 /* media query mode paysage portble */
 
 @media screen and (orientation: landscape) and (max-height: 425px) {
+
+    .lien-tel{
+        color: #cfcfcf;
+        text-decoration: none;
+        display: flex;
+        font-size: 25px;
+        border: 1px solid black;
+        box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: rgb(122 112 112 / 50%);
+        align-items: center;
+    }
     .wrap{
         height: 100%;
     }
@@ -69,6 +141,13 @@
         
         font-size: 25px;
     }
+    .lien-te-permanet{
+        display: flex;
+        right: 85%;
+        top: 35px;
+        font-size: 25px;
+    }
+    
 
     .video-podcast{
         width: 75%;
@@ -85,15 +164,78 @@
         width: 50%;
     }
 
-        
+    nav a {
+        font-family: Quicksand, sans-serif;
+        color: black;
+        font-size: 20px;
+        display: block;
+        margin: 10px 0;
+        text-decoration: none;
+       
+    }
+    .lien-mail{
+        color: #cfcfcf;
+        text-decoration: none;
+        display: flex;
+        font-size: 25px;
+        border: 1px solid black;
+        box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: rgb(122 112 112 / 50%);
+      
+     }
+     
     /* Styles à appliquer aux appareils en mode paysage avec une hauteur minimale de 500 pixels */
   }
 
   @media screen and (min-width: 1268px){
+
+    .lien-mail{
+        color: #cfcfcf;
+        text-decoration: none;
+        display: flex;
+        font-size: 25px;
+        border: 1px solid black;
+        box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: rgb(122 112 112 / 50%);
+      
+     }
+     
+    .lien-tel{
+        color: #cfcfcf;
+        text-decoration: none;
+        display: none;
+        font-size: 25px;
+        border: 1px solid black;
+        box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: rgb(122 112 112 / 50%);
+        align-items: center;
+    }
   
     .wrap{
         height: 100%;
     }
+
+    nav a {
+    font-family: Quicksand, sans-serif;
+    color: black;
+    font-size: 50px;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+   
+}
   
 
 }
