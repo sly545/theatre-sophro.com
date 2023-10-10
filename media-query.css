@@ -4,8 +4,12 @@
     .phragraphe-contact{
         font-size: 15px;
     }
-
-    
+    .video-pageContact{
+        display: flex;
+        width: 75%;
+        padding-top: 15%;
+      
+    }
     .lien-tel{
         color: #cfcfcf;
         text-decoration: none;
@@ -75,6 +79,12 @@
  
  @media screen and (max-width: 369px) {
 
+    .video-pageContact{
+        display: flex;
+        width: 75%;
+        padding-top: 25%;
+      
+    }
     .lien-tel{
         color: #cfcfcf;
         text-decoration: none;
@@ -119,6 +129,7 @@
 /* media query mode paysage portble */
 
 @media screen and (orientation: landscape) and (max-height: 425px) {
+
 
     .lien-tel{
         color: #cfcfcf;

@@ -236,6 +236,12 @@ h1 span {
     padding-top: 3%;
   
 }
+.video-pageContact{
+    display: flex;
+    width: 75%;
+    padding-top: 3%;
+  
+}
 .carte-paris{
     display: flex;
     width: 48%;
