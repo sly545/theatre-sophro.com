@@ -4,6 +4,10 @@
     .phragraphe-contact{
         font-size: 15px;
     }
+    .acroche-formule{
+        font-size: 15px;
+        font-family: Quicksand, sans-serif;
+    }
     .video-pageContact{
         display: flex;
         width: 75%;
@@ -145,6 +149,9 @@
         background-color: rgb(122 112 112 / 50%);
         align-items: center;
     }
+    .acroche-formule{
+        font-size: 13px;
+    }
     .wrap{
         height: 100%;
     }
@@ -201,7 +208,7 @@
      
     /* Styles à appliquer aux appareils en mode paysage avec une hauteur minimale de 500 pixels */
   }
-
+  /* style pour les tres gend ecran  */
   @media screen and (min-width: 1268px){
 
     .lien-mail{

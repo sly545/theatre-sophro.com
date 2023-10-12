@@ -38,7 +38,13 @@ body {
     text-decoration: none;
     
 }
-
+.lien-formules{
+    text-decoration: none;
+    color: darkslategrey;
+}
+.lien-formules :hover{
+    color:darkslategrey 
+}
 .visualisation{
     width: 75%;
     object-fit: cover;
@@ -73,6 +79,17 @@ h1 {
 }
 h1 span {
     font-weight: 600;
+}
+.acroche-formule{
+    width: 75%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid black;
+    box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color:#181717;
+    font-size: 22px;
 }
 .paragraphe{
     width: 75%;
