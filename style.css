@@ -137,8 +137,6 @@ h1 span {
 
 .title{
     color: #f1f1f1;
-    padding-top: 5px;
-    padding: 15px;
     margin-top: 12px;
     margin-bottom: 12px;
     font-size: 23px;
@@ -153,7 +151,16 @@ h1 span {
     background-color: #181717;
 
 }
-
+.title-form{
+    color: #f1f1f1;
+    font-size: 23px;
+    padding-bottom: 10px;
+    
+}
+.sou-title-form{
+    color: #f1f1f1;
+    font-size: 23px;
+}
 .harmonie{
     width: 75%;
     border: 1px solid black;
