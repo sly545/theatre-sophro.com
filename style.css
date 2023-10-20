@@ -151,6 +151,31 @@ h1 span {
     background-color: #181717;
 
 }
+
+.wrap-title-formule{
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    text-align: center;
+    width: 75%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #f1f1f1;
+}
+
+.titre-formule{
+    padding-bottom: 3px;
+    font-family: Quicksand, sans-serif;
+}
+
+.sous-titre-formule{
+    font-size: 25px;    
+}
 .title-form{
     color: #f1f1f1;
     font-size: 23px;
