@@ -95,13 +95,10 @@ h1 span {
 }
 .paragraphe{
     width: 75%;
-    padding-top: 2%;
-    padding-bottom: 2%;
     border: 1px solid black;
     box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
-    padding-right: 3%;
-    padding-left: 3%;
     background-color:#181717;
+    padding: 15px;
   
 }
 
@@ -138,19 +135,17 @@ h1 span {
   
 
 .title{
-    color: #f1f1f1;
+    color: black;
     margin-top: 12px;
-    margin-bottom: 12px;
-    font-size: 23px;
+    margin-bottom: 20px;
     text-align: center;
     width: 75%;
-    padding-top: 2%;
-    padding-bottom: 2%;
     border: 1px solid black;
     box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
-    padding-right: 3%;
-    padding-left: 3%;
-    background-color: #181717;
+    background-color: #f1f1f1;
+    font-size: 25px;
+    font-family: Quicksand, sans-serif;
+    padding: 15px;
 
 }
 

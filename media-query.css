@@ -1,6 +1,9 @@
 
 
 @media screen and (max-width: 425px) { 
+    .title{
+        font-size: 18px;
+    }
     .phragraphe-contact{
         font-size: 15px;
     }
@@ -97,6 +100,9 @@
  }
  
  @media screen and (max-width: 369px) {
+    .title{
+        font-size: 18px;
+    }
     .passsage-a-laligne{
         display: inline;
     }
@@ -162,6 +168,9 @@
 /* media query mode paysage portble */
 
 @media screen and (orientation: landscape) and (max-height: 425px) {
+    .title{
+        font-size: 18px;
+    }
 
     .titre-formule{
 
@@ -266,7 +275,19 @@
         background-color: rgb(122 112 112 / 50%);
       
      }
+    
+    .paragraphe{ 
+     font-size: 20px;
+     padding: 30px;
+
      
+      
+    }
+    .title{
+        font-size: 25px;
+        
+    }
+
     .lien-tel{
         color: #cfcfcf;
         text-decoration: none;
