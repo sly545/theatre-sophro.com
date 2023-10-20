@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+.passsage-a-laligne{
+    display: none;
+}
 body {
     font-family: Lato, Helvetica, sans-serif;
     background: #111;
@@ -156,7 +158,6 @@ h1 span {
     color: black;
     margin-top: 12px;
     margin-bottom: 20px;
-    font-size: 23px;
     text-align: center;
     width: 75%;
     padding-top: 15px;
@@ -171,21 +172,13 @@ h1 span {
 .titre-formule{
     padding-bottom: 3px;
     font-family: Quicksand, sans-serif;
+    font-size: 25px;
 }
 
 .sous-titre-formule{
     font-size: 25px;    
 }
-.title-form{
-    color: #f1f1f1;
-    font-size: 23px;
-    padding-bottom: 10px;
-    
-}
-.sou-title-form{
-    color: #f1f1f1;
-    font-size: 23px;
-}
+
 .harmonie{
     width: 75%;
     border: 1px solid black;

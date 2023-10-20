@@ -4,6 +4,9 @@
     .phragraphe-contact{
         font-size: 15px;
     }
+    .passsage-a-laligne{
+        display: inline;
+    }
     .acroche-formule{
         font-size: 15px;
         font-family: Quicksand, sans-serif;
@@ -14,21 +17,14 @@
         padding-top: 25%;
       
     }
-    .wrap-title-formule{
-        
-        font-size: 23px;
-       
-    }
-    
     .titre-formule{
-        padding-bottom: 3px;
-        font-family: Quicksand, sans-serif;
-        font-size: 16px;
+       font-size: 18px;
     }
     
     .sous-titre-formule{
-        font-size: 15px;    
+        font-size: 17px;  
     }
+    
     ul li{
         font-size: 14px;
     
@@ -101,6 +97,9 @@
  }
  
  @media screen and (max-width: 369px) {
+    .passsage-a-laligne{
+        display: inline;
+    }
 
     .video-pageContact{
         display: flex;
@@ -108,6 +107,17 @@
         padding-top: 35%;
       
     }
+    .titre-formule{
+
+        color: black;
+        font-size: 18px;
+    }
+    
+    .sous-titre-formule{
+        color: black;
+        font-size: 17px;    
+    }
+    
     .lien-tel{
         color: #cfcfcf;
         text-decoration: none;
@@ -153,7 +163,16 @@
 
 @media screen and (orientation: landscape) and (max-height: 425px) {
 
+    .titre-formule{
 
+
+        font-size: 19px;
+    }
+    
+    .sous-titre-formule{
+    
+        font-size: 18px;    
+    }
     .lien-tel{
         color: #cfcfcf;
         text-decoration: none;
@@ -174,29 +193,12 @@
     .wrap{
         height: 100%;
     }
-}
-.wrap-title-formule{
+    ul li{
+        font-size: 14px;
     
-    font-size: 23px;
-   
-}
-
-.titre-formule{
-    padding-bottom: 3px;
-    font-family: Quicksand, sans-serif;
-    font-size: 16px;
-}
-
-.sous-titre-formule{
-    font-size: 15px;    
-}
-ul li{
-    font-size: 14px;
-
-}
-    h1{
-        
-        font-size: 25px;
+    }
+  h1{
+         font-size: 25px;
     }
     .lien-te-permanet{
         display: flex;
@@ -245,8 +247,8 @@ ul li{
       
      }
      
-    /* Styles à appliquer aux appareils en mode paysage avec une hauteur minimale de 500 pixels */
-  }
+    }   /* Styles à appliquer aux appareils en mode paysage avec une hauteur minimale de 500 pixels */
+  
   /* style pour les tres gend ecran  */
   @media screen and (min-width: 1268px){
 
